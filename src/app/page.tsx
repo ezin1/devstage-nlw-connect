@@ -5,7 +5,7 @@ import { InputField, InputIcon, InputRoot } from './components/input';
 import { Button } from './components/button';
 export default function Home() {
   return (
-    <main className="max-w-[1240px] mx-auto px-5 py-8 md:py-0">
+
       <div className="min-h-dvh flex flex-col justify-center gap-16">
         <div className="flex flex-col gap-8 items-center md:items-start">
           <Image src={logo} alt='devstage' width={108.5} height={30}/>
@@ -58,7 +58,5 @@ export default function Home() {
         </div>
       </div>
 
-
-    </main>
   );
 }
